@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset=utf-8 />
+  <title>Imperial BMI</title>
+  <link rel="stylesheet" href="s2.css">
+  <link rel="icon" href="logo1.jpg">
+  <script type="text/javascript" src="calculate.js"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+  <div class="container">
+    <img src="logo1.jpg" alt="logo" class="logo1">
+    <h1>You can check your <span>BMI</span> here...</h1>
+  </div>
+  <div class="lower">
+
+    <form>
+
+      <div class="a1 animated fadeIn">
+        <span class="in">Age </span>
+        <input class="inp" type="number" min="0" id="age" title="Enter the Age" /><br>
+      </div>
+      <div class="h1 animated fadeIn">
+        <span class="in">Height(in) </span>
+        <input class="inp" type="number" min="0" id="height" title="Enter the height" /><br>
+      </div>
+      <div class="w1 animated fadeIn">
+        <span class="in">Weight(lb) </span>
+        <input class="inp" type="number" min="0" id="weight" title="Enter the Weight" /><br>
+      </div>
+      <div class="cal1 animated fadeIn">
+        <input type="button" id="cal" onClick="imperial()" value="Calculate" />
+
+      </div>
+    </form>
+    <div class="con-rel">
+      <div class="related-mar">
+
+
+      </div>
+      <div class="related animated1 fadeInRight">
+        <h2>Related</h2> <br>
+        <a class="relat" href="Risks.html">RISK Being underweight or overweight</a>
+      </div>
+    </div>
+    <div class="r1">
+      <p>Your BMI is: <span id="result"></span></p>
+
+    </div>
+  </div>
+
+  </div>
+  <div class="mid-container">
+    <h1 class="maint"><span id="suggestion"></span></h1> <br>
+    <h1 class="maint"><span id="suggestion-cal"></span></h1>
+    <div class="maintain animated1 fadeInRight">
+      <table cellpadding="50px">
+        <tr>
+          <td> <span id="a1.1"></span> </td>
+          <td> <span id="a1.2"></span> <br> <span id="a1.3"></span> </td>
+        </tr>
+        <tr>
+          <td> <span id="a2.1"></span> </td>
+          <td> <span id="a2.2"></span> <br> <span id="a2.3"></span> </td>
+        </tr>
+        <tr>
+          <td> <span id="a3.1"></span> </td>
+          <td> <span id="a3.2"></span> <br> <span id="a3.3"></span> </td>
+        </tr>
+      </table>
+    </div>
+    <hr>
+    <h1 class="gain"><span id="suggestion2"></span></h1> <br>
+    <h1 class="gain"><span id="suggestion2-cal"></span></h1>
+    <div class=" gaining animated1 fadeInRight">
+      <table cellpadding="50px">
+        <tr>
+          <td> <span id="b1.1"></span> </td>
+          <td> <span id="b1.2"></span> <br> <span id="b1.3"></span> </td>
+        </tr>
+        <tr>
+          <td> <span id="b2.1"></span> </td>
+          <td> <span id="b2.2"></span> <br> <span id="b2.3"></span> </td>
+        </tr>
+        <tr>
+          <td> <span id="b3.1"></span> </td>
+          <td> <span id="b3.2"></span> <br> <span id="b3.3"></span> </td>
+        </tr>
+      </table>
+    </div>
+    <hr>
+    <h1 class="lose"><span id="suggestion3"></span></h1> <br>
+    <h1 class="lose"><span id="suggestion3-cal"></span></h1>
+    <div class="losing animated1 fadeInRight">
+      <table cellpadding="50px">
+        <tr>
+          <td> <span id="c1.1"></span> </td>
+          <td> <span id="c1.2"></span> <br> <span id="c1.3"></span> </td>
+        </tr>
+        <tr>
+          <td> <span id="c2.1"></span> </td>
+          <td> <span id="c2.2"></span> <br> <span id="c2.3"></span> </td>
+        </tr>
+        <tr>
+          <td> <span id="c3.1"></span> </td>
+          <td> <span id="c3.2"></span> <br> <span id="c3.3"></span> </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/sribalajy-n-s-671a13191/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BQZmspj8ORvODR3DuQcIe1A%3D%3D">LinkedIn</a>
+    <a class="footer-link" href="https://twitter.com/sribalajy">Twitter</a>
+  </div>
+</body>
+
+</html>
